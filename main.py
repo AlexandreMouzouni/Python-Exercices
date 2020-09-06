@@ -1,15 +1,15 @@
-# EX0 1
+#EX0 1
 temps = 6.892
 distance = 19.7
 vitesse  = distance/temps
 print(round(vitesse,1))
 
-# EXO 2
+#EXO 2
 age=int(input("saisir un age"))
 nom=str(input("sisir un nom"))
 print("votre age est", age, "votre nom est", nom)
 
-# EXO 3 
+#EXO 3 
 from math import *
 
 flottant= float(input("saisir un flottant"))
@@ -42,7 +42,7 @@ else :
   print("tout va bien")
 
 ##### PARTIE 2 #########
-# EXO 6
+#EXO 6
 import re
 
 regex = '^[a-z0-9]+[@]\w+[.]\w{2,3}$'
@@ -60,7 +60,7 @@ message ="salut"
 for i in range(1,11) :
     print(i,message)
     
-# EXO 8 
+#EXO 8 
 
 mot1=str(input("rentrer votre mot"))
 i=0
@@ -163,7 +163,7 @@ while i >= 0 :
     i = i- 1
 print(mot2)
 
-# EXO 17 
+#EXO 17 
 def palindrome(chaine):
   if(len(chaine)== 0):
     return True
@@ -203,7 +203,7 @@ machin = [0.0]*5
 print(truc)
 print(machin)
 
-# EXO 20
+#EXO 20
 
 for i in range(0,4):
   print(i)
